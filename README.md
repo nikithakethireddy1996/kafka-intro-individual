@@ -25,3 +25,7 @@
 ```
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tik-tok --from-beginning
 ```
+- In order to delete a unique topic we use the command 
+```
+.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic tik-tok
+```
